@@ -1,16 +1,6 @@
 import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project, Cache, StreamReport } from "@yarnpkg/core";
-import {
-  VirtualFS,
-  ZipOpenFS,
-  xfs,
-  FakeFS,
-  NativePath,
-  Filename,
-  ppath,
-} from "@yarnpkg/fslib";
-import { join } from "path";
-import { Option } from "clipanion";
+import { xfs, Filename, ppath } from "@yarnpkg/fslib";
 
 const NODE_MODULES = `node_modules` as Filename;
 const LOCK_FILE = "yarn.lock" as Filename;
@@ -18,15 +8,8 @@ const LOCK_FILE = "yarn.lock" as Filename;
 export default class RegenCommand extends BaseCommand {
   static paths = [[`regen`]];
 
-  force = Option.Boolean("-f,--force", {
-    description: "Force the command to run",
-  });
-
   async execute(): Promise<number | void> {
-    const configuration: Configuration = await Configuration.find(
-      this.context.cwd,
-      this.context.plugins
-    );
+    const configuration: Configuration = await Configuration.find(this.context.cwd, this.context.plugins);
     const { project } = await Project.find(configuration, this.context.cwd);
     const cache = await Cache.find(configuration);
 

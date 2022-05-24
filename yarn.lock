@@ -245,6 +245,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:2":
+  version: 2.6.1
+  resolution: "@types/prettier@npm:2.6.1"
+  checksum: b25ec46d18129fa40c1a1f42feb7406e8f19901ba5261ba3c71600ad14996ae07b4f4b727a9b83da673948011e59d870fc519166f05b5d49e9ad39db1aea8c93
+  languageName: node
+  linkType: hard
+
 "@types/responselike@npm:*, @types/responselike@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/responselike@npm:1.0.0"
@@ -390,7 +397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.6, @yarnpkg/fslib@npm:latest":
+"@yarnpkg/fslib@npm:3.0.0-rc.6, @yarnpkg/fslib@npm:^3.0.0-rc.6":
   version: 3.0.0-rc.6
   resolution: "@yarnpkg/fslib@npm:3.0.0-rc.6"
   dependencies:
@@ -1906,6 +1913,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:2.6.2":
+  version: 2.6.2
+  resolution: "prettier@npm:2.6.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  languageName: node
+  linkType: hard
+
 "prop-types@npm:^15.6.2":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
@@ -2366,23 +2382,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.7.0-dev.20220506":
-  version: 4.7.0-dev.20220506
-  resolution: "typescript@npm:4.7.0-dev.20220506"
+"typescript@npm:4.6.4":
+  version: 4.6.4
+  resolution: "typescript@npm:4.6.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f2e6aeef7efaaefd087ab30dbdbbb290782b40206249937dcd368756914e8d83f48aa581cd23a377c6e44fac0a22c8301db80db75a5a5cd1600f79b61fd8b473
+  checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.7.0-dev.20220506#~builtin<compat/typescript>":
-  version: 4.7.0-dev.20220506
-  resolution: "typescript@patch:typescript@npm%3A4.7.0-dev.20220506#~builtin<compat/typescript>::version=4.7.0-dev.20220506&hash=7ad353"
+"typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
+  version: 4.6.4
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8b3b9767b3a7d086f6236d62c44c4ec8da0ba3ec803235d23247812f3fcbb97f8b89d5f3522c21e9e5842ca2e55ccaf6d8e476475ec6c42b46cb1b8779d57acd
+  checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
   languageName: node
   linkType: hard
 
@@ -2392,21 +2408,6 @@ __metadata:
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
-
-"utils@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "utils@workspace:."
-  dependencies:
-    "@types/node": 17.0.35
-    "@yarnpkg/builder": 4.0.0-rc.6
-    "@yarnpkg/cli": 4.0.0-rc.6
-    "@yarnpkg/core": 4.0.0-rc.6
-    "@yarnpkg/fslib": latest
-    "@yarnpkg/sdks": 3.0.0-rc.6
-    clipanion: 3.2.0-rc.11
-    typescript: 4.7.0-dev.20220506
-  languageName: unknown
-  linkType: soft
 
 "which@npm:^2.0.1":
   version: 2.0.2
@@ -2467,6 +2468,23 @@ __metadata:
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
   languageName: node
   linkType: hard
+
+"yarn-plugin-utils@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "yarn-plugin-utils@workspace:."
+  dependencies:
+    "@types/node": 17.0.35
+    "@types/prettier": 2
+    "@yarnpkg/builder": 4.0.0-rc.6
+    "@yarnpkg/cli": 4.0.0-rc.6
+    "@yarnpkg/core": 4.0.0-rc.6
+    "@yarnpkg/fslib": 3.0.0-rc.6
+    "@yarnpkg/sdks": 3.0.0-rc.6
+    clipanion: 3.2.0-rc.11
+    prettier: 2.6.2
+    typescript: 4.6.4
+  languageName: unknown
+  linkType: soft
 
 "yoga-layout-prebuilt@npm:^1.9.6":
   version: 1.10.0
