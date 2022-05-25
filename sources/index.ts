@@ -1,9 +1,10 @@
 import { Plugin } from "@yarnpkg/core";
 
 import regen from "./commands/regen";
+import pin from "./commands/pin";
 
 const plugin: Plugin = {
-  commands: [regen],
+  commands: [regen, pin],
 };
 
 export default plugin;

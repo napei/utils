@@ -245,7 +245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:2":
+"@types/prettier@npm:2.6.1":
   version: 2.6.1
   resolution: "@types/prettier@npm:2.6.1"
   checksum: b25ec46d18129fa40c1a1f42feb7406e8f19901ba5261ba3c71600ad14996ae07b4f4b727a9b83da673948011e59d870fc519166f05b5d49e9ad39db1aea8c93
@@ -2382,23 +2382,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.6.4":
-  version: 4.6.4
-  resolution: "typescript@npm:4.6.4"
+"typescript@npm:4.7.2":
+  version: 4.7.2
+  resolution: "typescript@npm:4.7.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
+  checksum: 5163585e6b56410f77d5483b698d9489bbee8902c99029eb70cf6d21525a186530ce19a00951af84eefd4a131cc51d0959f5118e25e70ab61f45ac4057dbd1ef
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
-  version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
+"typescript@patch:typescript@4.7.2#~builtin<compat/typescript>":
+  version: 4.7.2
+  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
+  checksum: 7e2b9a9f4a70fb7616f1b0d986977f8e34a74f046202fa7f24fdee79589598277810fa216b3776c20c0683a9235872c73be34fdb93f67f98c1efaca40999422f
   languageName: node
   linkType: hard
 
@@ -2474,7 +2474,7 @@ __metadata:
   resolution: "yarn-plugin-utils@workspace:."
   dependencies:
     "@types/node": 17.0.35
-    "@types/prettier": 2
+    "@types/prettier": 2.6.1
     "@yarnpkg/builder": 4.0.0-rc.6
     "@yarnpkg/cli": 4.0.0-rc.6
     "@yarnpkg/core": 4.0.0-rc.6
@@ -2482,7 +2482,7 @@ __metadata:
     "@yarnpkg/sdks": 3.0.0-rc.6
     clipanion: 3.2.0-rc.11
     prettier: 2.6.2
-    typescript: 4.6.4
+    typescript: 4.7.2
   languageName: unknown
   linkType: soft
 
