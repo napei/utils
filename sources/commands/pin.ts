@@ -1,7 +1,7 @@
 import { BaseCommand, WorkspaceRequiredError } from "@yarnpkg/cli";
 import { Configuration, Project, Cache, StreamReport, HardDependencies, structUtils } from "@yarnpkg/core";
 
-export default class RegenCommand extends BaseCommand {
+export default class PinCommand extends BaseCommand {
   static paths = [[`pin`]];
 
   async execute(): Promise<number | void> {
