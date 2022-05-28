@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:17.0.35"],\
-            ["@types/prettier", "npm:2.6.1"],\
+            ["@types/prettier", "npm:2.6.2"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
@@ -323,10 +323,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/prettier", [\
-        ["npm:2.6.1", {\
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.6.1-b35509333b-b25ec46d18.zip/node_modules/@types/prettier/",\
+        ["npm:2.6.2", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.6.2-8c070396ee-b1b0aadc2a.zip/node_modules/@types/prettier/",\
           "packageDependencies": [\
-            ["@types/prettier", "npm:2.6.1"]\
+            ["@types/prettier", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3250,7 +3250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["yarn-plugin-utils", "workspace:."],\
             ["@types/node", "npm:17.0.35"],\
-            ["@types/prettier", "npm:2.6.1"],\
+            ["@types/prettier", "npm:2.6.2"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
