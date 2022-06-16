@@ -34,14 +34,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:17.0.35"],\
-            ["@types/prettier", "npm:2.6.2"],\
+            ["@types/prettier", "npm:2.6.3"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/fslib", "npm:3.0.0-rc.6"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
-            ["prettier", "npm:2.6.2"],\
+            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -323,10 +323,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/prettier", [\
-        ["npm:2.6.2", {\
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.6.2-8c070396ee-b1b0aadc2a.zip/node_modules/@types/prettier/",\
+        ["npm:2.6.3", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.6.3-8d27063d48-e1836699ca.zip/node_modules/@types/prettier/",\
           "packageDependencies": [\
-            ["@types/prettier", "npm:2.6.2"]\
+            ["@types/prettier", "npm:2.6.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2603,10 +2603,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.6.2", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.6.2-05918420da-48d08dde8e.zip/node_modules/prettier/",\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.6.2"]\
+            ["prettier", "npm:2.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3250,14 +3250,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["yarn-plugin-utils", "workspace:."],\
             ["@types/node", "npm:17.0.35"],\
-            ["@types/prettier", "npm:2.6.2"],\
+            ["@types/prettier", "npm:2.6.3"],\
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/fslib", "npm:3.0.0-rc.6"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
-            ["prettier", "npm:2.6.2"],\
+            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
