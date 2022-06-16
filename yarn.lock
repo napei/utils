@@ -245,10 +245,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:2.6.2":
-  version: 2.6.2
-  resolution: "@types/prettier@npm:2.6.2"
-  checksum: b1b0aadc2a325bcbf0040abd1f75de8cc08dd4a203c43c18dbb209c9e53b3e1c5c72faf82b7868302487f5cd0721c9ec26ee7e3fabd986d8066aba284196bd6d
+"@types/prettier@npm:2.6.3":
+  version: 2.6.3
+  resolution: "@types/prettier@npm:2.6.3"
+  checksum: e1836699ca189fff6d2a73dc22e028b6a6f693ed1180d5998ac29fa197caf8f85aa92cb38db642e4a370e616b451cb5722ad2395dab11c78e025a1455f37d1f0
   languageName: node
   linkType: hard
 
@@ -1913,12 +1913,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
@@ -2474,14 +2474,14 @@ __metadata:
   resolution: "yarn-plugin-utils@workspace:."
   dependencies:
     "@types/node": 17.0.35
-    "@types/prettier": 2.6.2
+    "@types/prettier": 2.6.3
     "@yarnpkg/builder": 4.0.0-rc.6
     "@yarnpkg/cli": 4.0.0-rc.6
     "@yarnpkg/core": 4.0.0-rc.6
     "@yarnpkg/fslib": 3.0.0-rc.6
     "@yarnpkg/sdks": 3.0.0-rc.6
     clipanion: 3.2.0-rc.11
-    prettier: 2.6.2
+    prettier: 2.7.1
     typescript: 4.7.2
   languageName: unknown
   linkType: soft
