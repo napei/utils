@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
             ["prettier", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3151,10 +3151,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-387d77a6ef-7e2b9a9f4a.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-e8b9857d0c-9096d8f6c1.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3258,7 +3258,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
             ["prettier", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
         }]\
