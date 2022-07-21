@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.6"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.14"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
             ["prettier", "npm:2.6.2"],\
@@ -526,6 +526,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/fslib", [\
+        ["npm:3.0.0-rc.14", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-3.0.0-rc.14-88d5e673f2-37819f9810.zip/node_modules/@yarnpkg/fslib/",\
+          "packageDependencies": [\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.14"],\
+            ["@yarnpkg/libzip", "npm:3.0.0-rc.14"],\
+            ["tslib", "npm:1.14.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.0.0-rc.6", {\
           "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-3.0.0-rc.6-c6418404f6-caebe430e0.zip/node_modules/@yarnpkg/fslib/",\
           "packageDependencies": [\
@@ -564,6 +573,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/libzip", [\
+        ["npm:3.0.0-rc.14", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-3.0.0-rc.14-decb6dd663-cec1c8654c.zip/node_modules/@yarnpkg/libzip/",\
+          "packageDependencies": [\
+            ["@yarnpkg/libzip", "npm:3.0.0-rc.14"],\
+            ["@types/emscripten", "npm:1.39.6"],\
+            ["tslib", "npm:1.14.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.0.0-rc.6", {\
           "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-3.0.0-rc.6-3c5b930e48-c33d916e71.zip/node_modules/@yarnpkg/libzip/",\
           "packageDependencies": [\
@@ -3254,7 +3272,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/builder", "npm:4.0.0-rc.6"],\
             ["@yarnpkg/cli", "virtual:665ea3c70d528beb45a65b9c2687e6b4694cb22950beaa1cf79324de3e5003085ecc7e0e940655521bc9d65f4af6d0b0ce3393e393a11d3ad6db6089f0140491#npm:4.0.0-rc.6"],\
             ["@yarnpkg/core", "npm:4.0.0-rc.6"],\
-            ["@yarnpkg/fslib", "npm:3.0.0-rc.6"],\
+            ["@yarnpkg/fslib", "npm:3.0.0-rc.14"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.6"],\
             ["clipanion", "virtual:b05e5eb9c879a6c3cf2ede38c7a66036274c3b2d5fae96fdad6ab6e2ffafd7c223bb1d83f9ad5e7d50acc9a53cf34d582ec07659f98ab7961d452cd7d7ccd80f#npm:3.2.0-rc.11"],\
             ["prettier", "npm:2.6.2"],\
