@@ -3,7 +3,7 @@
   "main": "./sources/index.ts",
   "dependencies": {
     "@types/node": "17.0.35",
-    "@yarnpkg/builder": "4.0.0-rc.6",
+    "@yarnpkg/builder": "4.0.0-rc.14",
     "@yarnpkg/cli": "4.0.0-rc.6",
     "@yarnpkg/core": "4.0.0-rc.6",
     "@yarnpkg/fslib": "3.0.0-rc.6",
